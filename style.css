@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F6F1D1;
+    font-family: "Outfit", sans-serif;
+}
+
+.page {
+    min-height: 100vh;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 80px 1fr auto;
+}
+
+.top {
+    background-color: #0B2027;
+    color: #F6F1D1;
+    padding: 0.5rem;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.top-bar h1 {
+    margin-inline-start: 1rem;
+}
+
+.top-bar-contact {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+
+    text-decoration: none;
+}
+
+.top-bar-contact a {
+    text-decoration: none;
+    color: #F6F1D1;
+}
+
+.top-bar-contact a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    width: 98%;
+    margin: 0.5rem auto;
+    padding: 1rem;
+
+    background-color: #CFD7C7;
+    border-radius: 5px;
+
+    text-align: justify;
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.float {
+    background-color: #70A9A1;
+    height: 200px;
+    width: 200px;
+
+    border-radius: 150px;
+    align-self: center;
+    justify-self: center;
+}
+
+.text {
+    padding: 1rem;
+    align-self:self-start;
+    justify-self: center;
+    
+}
+
+.text h1 {
+    margin: 1rem;
+}
+
+.text h2 {
+    margin: 2rem auto 1rem;
+    text-align: center;
+    list-style-type: none;
+}
+
+.text ul {
+    text-align: center;
+    list-style-type: none;
+
+}
+
+.bottom {
+    background-color: #40798C;
+    padding: 1rem;
+}
